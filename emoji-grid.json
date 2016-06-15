@@ -1,0 +1,29 @@
+{
+	"name": "Emoji Grid",
+	"title": "CSS Emoji Grid",
+	"homepage": "https://github.com/juanbrujo/css-emoji-grid",
+	"description": "Smallest and weirdest CSS grid, using emojis as classes. And responsive!",
+	"demo": "http://juanbrujo.github.io/css-emoji-grid/",
+	"keywords": [
+		"css",
+		"grid",
+		"responsive",
+		"emoji"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Jorge Epuñan",
+		"url": "https://github.com/juanbrujo",
+		"twitter": "@csslab"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mit-license.org/",
+			"copyright": "©2016"
+		}
+	],
+	"bugs": "https://github.com/juanbrujo/css-emoji-grid/issues",
+	"docs": "https://github.com/juanbrujo/css-emoji-grid#readme",
+	"download": "https://github.com/juanbrujo/css-emoji-grid/archive/master.zip"
+}

@@ -1,0 +1,52 @@
+// =================
+// This source code is based in my *real* CSS Grid MutaGrid:
+// https://github.com/mutable-tools/MutaGrid/
+//
+// Initial config variables, edit if needed and run `grunt build`
+// =================
+
+// Grid Columns
+$grid-columns:  12;
+
+// Gutter Size
+$gutter:        1em;
+
+// Breakpoint Sizes
+$breakpoints: (
+  xsmall:   480px,  // set false this size if needed
+  small:    768px,
+  medium:   1024px,
+  large:    1280px
+);
+
+// Container Sizes
+$containers: (
+  xsmall:   100%,
+  small:    100%,
+  medium:   map-get($breakpoints, medium),
+  large:    map-get($breakpoints, large)
+);
+
+
+// =================
+// Essential scss files imported and processed.
+// (better don't touch anything below this, or the universe may explode)
+// =================
+
+/* ==
+ * Base Styles
+ == */
+@import 'base/body';
+
+/* ==
+ * Utility Classes
+ == */
+@import 'utils/mixins',
+        'utils/mediaqueries';
+
+/* ==
+ * Grid
+ == */
+@import 'grid/container',
+        'grid/row',
+        'grid/column';

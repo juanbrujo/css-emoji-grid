@@ -1,0 +1,26 @@
+// =================
+// General Mixins
+// =================
+
+// Clearfix Mixin
+// used in: column.scss
+@mixin clearfix() {
+
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+
+	*zoom: 1;
+}
+
+// Column calc function
+// used in: push.scss, pull.scss, offset.scss, column.scss
+@function columnWidth($i) {
+	@return 100% * ( $i / $grid-columns );
+}

@@ -1,0 +1,56 @@
+// =================
+// Definitions
+// =================
+
+// Container Gutter
+$container-gutter: ($gutter / 2);
+$container-gutter-large: $container-gutter;
+$container-gutter-medium: $container-gutter;
+$container-gutter-small: $container-gutter;
+$container-gutter-xsmall: $container-gutter;
+
+/*
+ * Container
+ */
+
+.🔵 {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	@include clearfix();
+
+	@media #{$large} {
+		@if $gutter != 0 {
+			padding-left: $container-gutter-large;
+			padding-right: $container-gutter-large;
+		}
+		max-width: map-get($containers, large);
+	}
+
+	@media #{$medium} {
+		@if $gutter != 0 {
+			padding-left: $container-gutter-medium;
+			padding-right: $container-gutter-medium;
+		}
+		max-width: map-get($containers, medium);
+	}
+
+	@media #{$small} {
+		@if $gutter != 0 {
+			padding-left: $container-gutter-small;
+			padding-right: $container-gutter-small;
+		}
+		max-width: map-get($containers, small);
+	}
+
+	@if map-get($breakpoints, xsmall) != false {
+		@media #{$xsmall} {
+			@if $gutter != 0 {
+				padding-left: $container-gutter-xsmall;
+				padding-right: $container-gutter-xsmall;
+			}
+			max-width: map-get($containers, xsmall);
+		}
+	}
+
+}

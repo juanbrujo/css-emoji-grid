@@ -1,0 +1,38 @@
+/*
+ * General Body definitions | basic normalize
+ */
+
+// Font Rendering
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Box Sizing
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+// Remove default margin in <body> (source: normalize.css)
+body {
+  margin: 0;
+}
+
+// Correct `block` display not defined for IE8 ~ IE11 (source: normalize.css)
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
