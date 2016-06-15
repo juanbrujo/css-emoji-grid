@@ -1,0 +1,107 @@
+/*
+ * Columns
+ */
+
+[class*='col'] {
+	float: left;
+	position: relative;
+	min-height: 1px;
+
+	@if $gutter != 0 {
+		padding-left: ( $gutter / 2);
+		padding-right: ( $gutter / 2 );
+	}
+}
+
+// Emoji map: for each column number (min: 1 | max: 12) replace by an emoji
+$emojis: (
+  1: 	'👆',
+  2: 	'👫',
+  3: 	'👪',
+  4: 	'🍕',
+  5: 	'🌿',
+  6: 	'🍇',
+  7: 	'🎰',
+  8: 	'🎹',
+  9: 	'🍪',
+  10: '🔟',
+  11: '📱',
+  12: '💥',
+);
+
+/*
+ * General Column Classes
+ */
+
+
+@for $i from 1 through $grid-columns {
+	.col-#{map-get($emojis, $i)} {
+		width: columnWidth($i);
+	}
+}
+
+/*
+ * Column Large Classes
+ */
+
+@media #{$large} {
+
+	@for $i from 1 through $grid-columns {
+		.col-lg-#{map-get($emojis, $i)} {
+			width: columnWidth($i);
+		}
+	}
+
+}
+
+
+/*
+ * Column Medium Classes
+ */
+
+@media #{$medium} {
+
+	@for $i from 1 through $grid-columns {
+		.col-md-#{map-get($emojis, $i)} {
+			width: columnWidth($i);
+		}
+	}
+
+}
+
+
+/*
+ * Column Small Classes
+ */
+
+
+@media #{$small} {
+
+	@for $i from 1 through $grid-columns {
+		.col-sm-#{map-get($emojis, $i)} {
+			width: columnWidth($i);
+		}
+	}
+
+}
+
+/*
+ * Column Extra Small Classes
+ */
+
+@if map-get($breakpoints, xsmall) != false {
+	@media #{$xsmall} {
+
+		[class*='col-'] {
+			width: 100%;
+		}
+
+		@for $i from 1 through $grid-columns {
+			.col-xs-#{map-get($emojis, $i)} {
+				width: columnWidth($i);
+			}
+		}
+
+	}
+}
+

@@ -1,8 +1,8 @@
 # CSS Emoji Grid
 
-*Smallest and Weirdest CSS Grid, using Emojis as classes*
+*Smallest and weirdest CSS grid, using emojis as classes. And responsive!*
 
-This experiment shows a full 12 columns working CSS grid, supported by emojis as CSS classes. Less than 1kb.
+This experiment shows a full 12 columns working CSS grid, supported by emojis as CSS classes. Less than 5kb.
 
 > Note: this is experimental and exploratory code
 
@@ -56,6 +56,27 @@ The main/basic markup works as follows:
     </div>
 </main>
 ```
+
+#### Responsive:
+
+As usual, responsive classes are similar to Bootstrap but _emojified_ 😂
+
+```css
+.col-xs-#
+.col-sm-#
+.col-md-#
+.col-lg-#
+```
+Example: _large: 2 rows | medium: 4 rows | small: 3 rows_
+
+```html
+<div class="col-👫 col-md-🍕 col-sm-👪">
+    <div class="item"></div>
+</div>
+```
+
+
+
 ### Support:
 
 Tested in Chrome 48, Firefox 44, Safari 9 and it just works! 👏
