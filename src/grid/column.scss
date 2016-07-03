@@ -2,7 +2,7 @@
  * Columns
  */
 
-[class*='col'] {
+[class*='🍺'] {
 	float: left;
 	position: relative;
 	min-height: 1px;
@@ -35,7 +35,7 @@ $emojis: (
 
 
 @for $i from 1 through $grid-columns {
-	.col-#{map-get($emojis, $i)} {
+	.🍺-#{map-get($emojis, $i)} {
 		width: columnWidth($i);
 	}
 }
@@ -47,7 +47,7 @@ $emojis: (
 @media #{$large} {
 
 	@for $i from 1 through $grid-columns {
-		.col-lg-#{map-get($emojis, $i)} {
+		.🍺-lg-#{map-get($emojis, $i)} {
 			width: columnWidth($i);
 		}
 	}
@@ -62,7 +62,7 @@ $emojis: (
 @media #{$medium} {
 
 	@for $i from 1 through $grid-columns {
-		.col-md-#{map-get($emojis, $i)} {
+		.🍺-md-#{map-get($emojis, $i)} {
 			width: columnWidth($i);
 		}
 	}
@@ -78,7 +78,7 @@ $emojis: (
 @media #{$small} {
 
 	@for $i from 1 through $grid-columns {
-		.col-sm-#{map-get($emojis, $i)} {
+		.🍺-sm-#{map-get($emojis, $i)} {
 			width: columnWidth($i);
 		}
 	}
@@ -92,12 +92,12 @@ $emojis: (
 @if map-get($breakpoints, xsmall) != false {
 	@media #{$xsmall} {
 
-		[class*='col-'] {
+		[class*='🍺-'] {
 			width: 100%;
 		}
 
 		@for $i from 1 through $grid-columns {
-			.col-xs-#{map-get($emojis, $i)} {
+			.🍺-xs-#{map-get($emojis, $i)} {
 				width: columnWidth($i);
 			}
 		}

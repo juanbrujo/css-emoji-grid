@@ -1,5 +1,5 @@
 /*
- *  CSS Emoji Grid - v0.0.1
+ *  CSS Emoji Grid - v0.1.0
  *  Smallest and weirdest CSS grid, using emojis as classes. And responsive!
  *
  *  https://github.com/juanbrujo/css-emoji-grid
@@ -103,7 +103,7 @@ summary {
 /*
  * Columns
  */
-[class*='col'] {
+[class*='🍺'] {
   float: left;
   position: relative;
   min-height: 1px;
@@ -113,156 +113,156 @@ summary {
 /*
  * General Column Classes
  */
-.col-👆 {
+.🍺-👆 {
   width: 8.3333333333%; }
 
-.col-👫 {
+.🍺-👫 {
   width: 16.6666666667%; }
 
-.col-👪 {
+.🍺-👪 {
   width: 25%; }
 
-.col-🍕 {
+.🍺-🍕 {
   width: 33.3333333333%; }
 
-.col-🌿 {
+.🍺-🌿 {
   width: 41.6666666667%; }
 
-.col-🍇 {
+.🍺-🍇 {
   width: 50%; }
 
-.col-🎰 {
+.🍺-🎰 {
   width: 58.3333333333%; }
 
-.col-🎹 {
+.🍺-🎹 {
   width: 66.6666666667%; }
 
-.col-🍪 {
+.🍺-🍪 {
   width: 75%; }
 
-.col-🔟 {
+.🍺-🔟 {
   width: 83.3333333333%; }
 
-.col-📱 {
+.🍺-📱 {
   width: 91.6666666667%; }
 
-.col-💥 {
+.🍺-💥 {
   width: 100%; }
 
 /*
  * Column Large Classes
  */
 @media (min-width: 1280px) {
-  .col-lg-👆 {
+  .🍺-lg-👆 {
     width: 8.3333333333%; }
-  .col-lg-👫 {
+  .🍺-lg-👫 {
     width: 16.6666666667%; }
-  .col-lg-👪 {
+  .🍺-lg-👪 {
     width: 25%; }
-  .col-lg-🍕 {
+  .🍺-lg-🍕 {
     width: 33.3333333333%; }
-  .col-lg-🌿 {
+  .🍺-lg-🌿 {
     width: 41.6666666667%; }
-  .col-lg-🍇 {
+  .🍺-lg-🍇 {
     width: 50%; }
-  .col-lg-🎰 {
+  .🍺-lg-🎰 {
     width: 58.3333333333%; }
-  .col-lg-🎹 {
+  .🍺-lg-🎹 {
     width: 66.6666666667%; }
-  .col-lg-🍪 {
+  .🍺-lg-🍪 {
     width: 75%; }
-  .col-lg-🔟 {
+  .🍺-lg-🔟 {
     width: 83.3333333333%; }
-  .col-lg-📱 {
+  .🍺-lg-📱 {
     width: 91.6666666667%; }
-  .col-lg-💥 {
+  .🍺-lg-💥 {
     width: 100%; } }
 
 /*
  * Column Medium Classes
  */
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .col-md-👆 {
+  .🍺-md-👆 {
     width: 8.3333333333%; }
-  .col-md-👫 {
+  .🍺-md-👫 {
     width: 16.6666666667%; }
-  .col-md-👪 {
+  .🍺-md-👪 {
     width: 25%; }
-  .col-md-🍕 {
+  .🍺-md-🍕 {
     width: 33.3333333333%; }
-  .col-md-🌿 {
+  .🍺-md-🌿 {
     width: 41.6666666667%; }
-  .col-md-🍇 {
+  .🍺-md-🍇 {
     width: 50%; }
-  .col-md-🎰 {
+  .🍺-md-🎰 {
     width: 58.3333333333%; }
-  .col-md-🎹 {
+  .🍺-md-🎹 {
     width: 66.6666666667%; }
-  .col-md-🍪 {
+  .🍺-md-🍪 {
     width: 75%; }
-  .col-md-🔟 {
+  .🍺-md-🔟 {
     width: 83.3333333333%; }
-  .col-md-📱 {
+  .🍺-md-📱 {
     width: 91.6666666667%; }
-  .col-md-💥 {
+  .🍺-md-💥 {
     width: 100%; } }
 
 /*
  * Column Small Classes
  */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .col-sm-👆 {
+  .🍺-sm-👆 {
     width: 8.3333333333%; }
-  .col-sm-👫 {
+  .🍺-sm-👫 {
     width: 16.6666666667%; }
-  .col-sm-👪 {
+  .🍺-sm-👪 {
     width: 25%; }
-  .col-sm-🍕 {
+  .🍺-sm-🍕 {
     width: 33.3333333333%; }
-  .col-sm-🌿 {
+  .🍺-sm-🌿 {
     width: 41.6666666667%; }
-  .col-sm-🍇 {
+  .🍺-sm-🍇 {
     width: 50%; }
-  .col-sm-🎰 {
+  .🍺-sm-🎰 {
     width: 58.3333333333%; }
-  .col-sm-🎹 {
+  .🍺-sm-🎹 {
     width: 66.6666666667%; }
-  .col-sm-🍪 {
+  .🍺-sm-🍪 {
     width: 75%; }
-  .col-sm-🔟 {
+  .🍺-sm-🔟 {
     width: 83.3333333333%; }
-  .col-sm-📱 {
+  .🍺-sm-📱 {
     width: 91.6666666667%; }
-  .col-sm-💥 {
+  .🍺-sm-💥 {
     width: 100%; } }
 
 /*
  * Column Extra Small Classes
  */
 @media (max-width: 767px) {
-  [class*='col-'] {
+  [class*='🍺-'] {
     width: 100%; }
-  .col-xs-👆 {
+  .🍺-xs-👆 {
     width: 8.3333333333%; }
-  .col-xs-👫 {
+  .🍺-xs-👫 {
     width: 16.6666666667%; }
-  .col-xs-👪 {
+  .🍺-xs-👪 {
     width: 25%; }
-  .col-xs-🍕 {
+  .🍺-xs-🍕 {
     width: 33.3333333333%; }
-  .col-xs-🌿 {
+  .🍺-xs-🌿 {
     width: 41.6666666667%; }
-  .col-xs-🍇 {
+  .🍺-xs-🍇 {
     width: 50%; }
-  .col-xs-🎰 {
+  .🍺-xs-🎰 {
     width: 58.3333333333%; }
-  .col-xs-🎹 {
+  .🍺-xs-🎹 {
     width: 66.6666666667%; }
-  .col-xs-🍪 {
+  .🍺-xs-🍪 {
     width: 75%; }
-  .col-xs-🔟 {
+  .🍺-xs-🔟 {
     width: 83.3333333333%; }
-  .col-xs-📱 {
+  .🍺-xs-📱 {
     width: 91.6666666667%; }
-  .col-xs-💥 {
+  .🍺-xs-💥 {
     width: 100%; } }

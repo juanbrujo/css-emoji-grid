@@ -18,29 +18,29 @@ As many CSS grid systems, it has some common classes:
 
 `.row`          => `.🔷`
 
-`.col-12`       => `.col-💥`
+`.col-12`       => `.🍺-💥`
 
-`.col-11`       => `.col-📱`
+`.col-11`       => `.🍺-📱`
 
-`.col-10`       => `.col-🔟`
+`.col-10`       => `.🍺-🔟`
 
-`.col-9`        => `.col-🍪`
+`.col-9`        => `.🍺-🍪`
 
-`.col-8`        => `.col-🎹`
+`.col-8`        => `.🍺-🎹`
 
-`.col-7`        => `.col-🎰`
+`.col-7`        => `.🍺-🎰`
 
-`.col-6`        => `.col-🍇`
+`.col-6`        => `.🍺-🍇`
 
-`.col-5`        => `.col-🌿`
+`.col-5`        => `.🍺-🌿`
 
-`.col-4`        => `.col-🍕`
+`.col-4`        => `.🍺-🍕`
 
-`.col-3`        => `.col-👪`
+`.col-3`        => `.🍺-👪`
 
-`.col-2`        => `.col-👫`
+`.col-2`        => `.🍺-👫`
 
-`.col-1`        => `.col-👆`
+`.col-1`        => `.🍺-👆`
 
 
 The main/basic markup works as follows:
@@ -48,11 +48,11 @@ The main/basic markup works as follows:
 ```html
 <main class="🔵">
     <div class="🔷">
-      <div class="col-💥">12</div>
+      <div class="🍺-💥">12</div>
     </div>
     <div class="🔷">
-      <div class="col-🔟">10</div>
-      <div class="col-👫">2</div>
+      <div class="🍺-🔟">10</div>
+      <div class="🍺-👫">2</div>
     </div>
 </main>
 ```
@@ -62,15 +62,15 @@ The main/basic markup works as follows:
 As usual, responsive classes are similar to Bootstrap but _emojified_ 😂
 
 ```css
-.col-xs-#
-.col-sm-#
-.col-md-#
-.col-lg-#
+.🍺-xs-#
+.🍺-sm-#
+.🍺-md-#
+.🍺-lg-#
 ```
 Example: _large: 2 rows | medium: 4 rows | small: 3 rows_
 
 ```html
-<div class="col-👫 col-md-🍕 col-sm-👪">
+<div class="🍺-👫 🍺-md-🍕 🍺-sm-👪">
     <div class="item"></div>
 </div>
 ```
