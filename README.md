@@ -6,6 +6,8 @@ This experiment shows a full 12 columns working CSS grid, supported by emojis as
 
 > Note: this is experimental and exploratory code
 
+![](https://i.imgur.com/n9O3nHh.png)
+
 ### Demo:
 
 [GitHub Pages](http://juanbrujo.github.io/css-emoji-grid) | [CodePen](http://codepen.io/juanbrujo/pen/bepzom)
